@@ -287,12 +287,14 @@ XNL0001 = Class(ACUUnit) {
         self:SetUnSelectable(false)
         self:SetBusy(false)
         self:SetBlockCommandQueue(false)
+        self:SetCanTakeDamage(true)
     end,
 
     PlayCommanderWarpInEffect = function(self)  -- part of initial dropship animation
         self:SetUnSelectable(true)
         self:SetBusy(true)
         self:SetBlockCommandQueue(true)
+        self:SetCanTakeDamage(false)
         self.PlayCommanderWarpInEffectFlag = true
         self:ForkThread(self.DoMeteorAnim)
     end,

@@ -71,7 +71,7 @@ UnitBlueprint {
         SubThreatLevel = 9,
         SurfaceThreatLevel = 0,
     },
-    Description = '<LOC XNS0205_desc>Railgun Carrier',
+    Description = '<LOC XNS0205_desc>Anti-Submersible Boat',
     Display = {
         Abilities = {
             '<LOC ability_sonar>Sonar',
@@ -378,7 +378,7 @@ UnitBlueprint {
             BeamCollisionDelay = 0.1,
             BeamLifetime = 0.1,
             CollideFriendly = false,
-            Damage = 0.26,
+            Damage = 0.34,
             DamageType = 'Normal',
             DisplayName = 'Supersonic Flak Launcher',
             FireTargetLayerCapsTable = {

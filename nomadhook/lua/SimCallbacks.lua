@@ -1,6 +1,3 @@
-LetterArray["Nomads"] = "xn"
-
-
 
 Callbacks.ActivateCapacitor = function(data, units)
     for _, u in units or {} do

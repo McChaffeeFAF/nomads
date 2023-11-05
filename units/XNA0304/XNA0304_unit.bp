@@ -282,6 +282,13 @@ UnitBlueprint {
         AirClass = true,
         TransportClass = 2,
     },
+    VeteranMass = {
+        4200,
+        4200,
+        4200,
+        4200,
+        4200,
+    },
     Weapon = {
         {
             AboveWaterTargetsOnly = true,
@@ -358,7 +365,7 @@ UnitBlueprint {
             AboveWaterTargetsOnly = true,
             Damage = 500,
             DamageFriendly = true,
-            DamageRadius = 2,
+            DamageRadius = 1,
             DamageType = 'Normal',
             DisplayName = 'Air Crash',
             DummyWeapon = true,
